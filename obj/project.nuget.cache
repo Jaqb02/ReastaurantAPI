@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QCW5pKQMngpiU/wwiwsbHAEc4fqVjambsRuS1nBL3SplZfxg1t9/Jab6gJ1QET27GfcMymqxON4PS9/Q0mWDdw==",
+  "success": true,
+  "projectFilePath": "D:\\Programy w C#\\RentalAPI\\ReastaurantAPI\\ReastaurantAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaqb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
