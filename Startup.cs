@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ReastaurantAPI.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,10 +27,13 @@ namespace ReastaurantAPI
         {
             services.AddTransient<IWeatherForecastService, WeatherForecastService>();
             services.AddControllers();
+            services.AddDbContext<RestaurantDbcontext>();
+            services.AddScoped<RestaurantSeeder>();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RestaurantSeeder seeder)
         {
+            seeder.Seed();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
