@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,7 @@ namespace ReastaurantAPI
             services.AddControllers();
             services.AddDbContext<RestaurantDbcontext>();
             services.AddScoped<RestaurantSeeder>();
+            services.AddAutoMapper(this.GetType().Assembly);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RestaurantSeeder seeder)

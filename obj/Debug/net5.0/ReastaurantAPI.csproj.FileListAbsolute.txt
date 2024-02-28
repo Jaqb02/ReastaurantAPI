@@ -58,3 +58,5 @@ D:\Programy w C#\RentalAPI\ReastaurantAPI\obj\Debug\net5.0\ReastaurantAPI.csproj
 D:\Programy w C#\RentalAPI\ReastaurantAPI\obj\Debug\net5.0\ReastaurantAPI.csproj.CopyComplete
 D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\Humanizer.dll
 D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\AutoMapper.dll
+D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
