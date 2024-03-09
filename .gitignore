@@ -133,3 +133,9 @@ $RECYCLE.BIN/
 _NCrunch*
 *.cs
 *.bin
+*.bin
+*.v2
+*.vsidx
+*.cache
+*.cs
+.vs/ReastaurantAPI/v17/.suo
