@@ -60,3 +60,7 @@ D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\Humanizer.dll
 D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\AutoMapper.dll
 D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\nlog.config
+D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\NLog.dll
+D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+D:\Programy w C#\RentalAPI\ReastaurantAPI\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
